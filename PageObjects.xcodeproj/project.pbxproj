@@ -14,6 +14,13 @@
 		743CD1AC1AC94D2B0035B87C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 743CD1AB1AC94D2B0035B87C /* Images.xcassets */; };
 		743CD1AF1AC94D2B0035B87C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 743CD1AD1AC94D2B0035B87C /* LaunchScreen.xib */; };
 		743CD1BB1AC94D2B0035B87C /* PageObjectsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 743CD1BA1AC94D2B0035B87C /* PageObjectsTests.m */; };
+		743CD1C91AC96C420035B87C /* PressCountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 743CD1C81AC96C420035B87C /* PressCountViewController.m */; };
+		743CD1CC1AC96C5D0035B87C /* FingerCountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 743CD1CB1AC96C5D0035B87C /* FingerCountViewController.m */; };
+		743CD1D01AC989DD0035B87C /* MultiTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 743CD1CF1AC989DD0035B87C /* MultiTouchView.m */; };
+		743CD1D31AC98ABB0035B87C /* MultiTouchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 743CD1D21AC98ABB0035B87C /* MultiTouchButton.m */; };
+		743CD1D61ACA59950035B87C /* ScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 743CD1D51ACA59950035B87C /* ScrollViewController.m */; };
+		743CD1D91ACA5D970035B87C /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 743CD1D81ACA5D970035B87C /* TableViewController.m */; };
+		743CD2421ACE63030035B87C /* PickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 743CD2411ACE63030035B87C /* PickerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +47,21 @@
 		743CD1B41AC94D2B0035B87C /* PageObjectsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PageObjectsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		743CD1B91AC94D2B0035B87C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		743CD1BA1AC94D2B0035B87C /* PageObjectsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageObjectsTests.m; sourceTree = "<group>"; };
+		743CD1C71AC96C420035B87C /* PressCountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PressCountViewController.h; sourceTree = "<group>"; };
+		743CD1C81AC96C420035B87C /* PressCountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PressCountViewController.m; sourceTree = "<group>"; };
+		743CD1CA1AC96C5D0035B87C /* FingerCountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FingerCountViewController.h; sourceTree = "<group>"; };
+		743CD1CB1AC96C5D0035B87C /* FingerCountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FingerCountViewController.m; sourceTree = "<group>"; };
+		743CD1CD1AC989260035B87C /* Interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Interface.h; sourceTree = "<group>"; };
+		743CD1CE1AC989DD0035B87C /* MultiTouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiTouchView.h; sourceTree = "<group>"; };
+		743CD1CF1AC989DD0035B87C /* MultiTouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiTouchView.m; sourceTree = "<group>"; };
+		743CD1D11AC98ABA0035B87C /* MultiTouchButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiTouchButton.h; sourceTree = "<group>"; };
+		743CD1D21AC98ABB0035B87C /* MultiTouchButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiTouchButton.m; sourceTree = "<group>"; };
+		743CD1D41ACA59950035B87C /* ScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewController.h; sourceTree = "<group>"; };
+		743CD1D51ACA59950035B87C /* ScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewController.m; sourceTree = "<group>"; };
+		743CD1D71ACA5D970035B87C /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		743CD1D81ACA5D970035B87C /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		743CD2401ACE63030035B87C /* PickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerViewController.h; sourceTree = "<group>"; };
+		743CD2411ACE63030035B87C /* PickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,9 +108,24 @@
 				743CD1A51AC94D290035B87C /* ViewController.h */,
 				743CD1A61AC94D290035B87C /* ViewController.m */,
 				743CD1A81AC94D290035B87C /* Main.storyboard */,
+				743CD2401ACE63030035B87C /* PickerViewController.h */,
+				743CD2411ACE63030035B87C /* PickerViewController.m */,
 				743CD1AB1AC94D2B0035B87C /* Images.xcassets */,
 				743CD1AD1AC94D2B0035B87C /* LaunchScreen.xib */,
 				743CD19E1AC94D290035B87C /* Supporting Files */,
+				743CD1C71AC96C420035B87C /* PressCountViewController.h */,
+				743CD1C81AC96C420035B87C /* PressCountViewController.m */,
+				743CD1CA1AC96C5D0035B87C /* FingerCountViewController.h */,
+				743CD1CB1AC96C5D0035B87C /* FingerCountViewController.m */,
+				743CD1CD1AC989260035B87C /* Interface.h */,
+				743CD1CE1AC989DD0035B87C /* MultiTouchView.h */,
+				743CD1CF1AC989DD0035B87C /* MultiTouchView.m */,
+				743CD1D11AC98ABA0035B87C /* MultiTouchButton.h */,
+				743CD1D21AC98ABB0035B87C /* MultiTouchButton.m */,
+				743CD1D41ACA59950035B87C /* ScrollViewController.h */,
+				743CD1D51ACA59950035B87C /* ScrollViewController.m */,
+				743CD1D71ACA5D970035B87C /* TableViewController.h */,
+				743CD1D81ACA5D970035B87C /* TableViewController.m */,
 			);
 			path = PageObjects;
 			sourceTree = "<group>";
@@ -220,8 +257,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				743CD1A71AC94D290035B87C /* ViewController.m in Sources */,
+				743CD1CC1AC96C5D0035B87C /* FingerCountViewController.m in Sources */,
+				743CD2421ACE63030035B87C /* PickerViewController.m in Sources */,
+				743CD1D01AC989DD0035B87C /* MultiTouchView.m in Sources */,
+				743CD1D31AC98ABB0035B87C /* MultiTouchButton.m in Sources */,
+				743CD1D91ACA5D970035B87C /* TableViewController.m in Sources */,
 				743CD1A41AC94D290035B87C /* AppDelegate.m in Sources */,
+				743CD1C91AC96C420035B87C /* PressCountViewController.m in Sources */,
 				743CD1A11AC94D290035B87C /* main.m in Sources */,
+				743CD1D61ACA59950035B87C /* ScrollViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

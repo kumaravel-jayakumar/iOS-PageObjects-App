@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  MultiTouchButton.h
 //  PageObjects
 //
 //  Created by Jayakumar, Kumaravel on 3/30/15.
@@ -7,11 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ViewController.h"
+#import "MultiTouchView.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface MultiTouchButton : UIButton
 
-@property (strong, nonatomic) UIWindow *window;
+@property(strong, nonatomic) MultiTouchView* multiTouchView;
 
 @end
-
