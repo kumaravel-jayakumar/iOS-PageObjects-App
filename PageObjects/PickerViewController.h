@@ -1,19 +1,31 @@
-//
-//  PickerViewController.h
-//  PageObjects
-//
-//  Created by Jayakumar, Kumaravel on 4/3/15.
-//  Copyright (c) 2015 Jayakumar, Kumaravel. All rights reserved.
-//
+/*!
+ @header PickerViewController.h
+
+ @brief View controller for the picker wheel.
+
+ @copyright  Copyright (C) 2015 eBay Software Foundation.
+
+ Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance
+ with the License.
+ 
+ You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0
+ 
+ Unless required by applicable law or agreed to in writing, software distributed under the License is distributed
+ on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for
+ the specific language governing permissions and limitations under the License.
+ */
 
 #import <UIKit/UIKit.h>
 
 @interface PickerViewController : UIViewController <UIPickerViewDataSource, UIPickerViewDelegate>
 
+/*! @brief Items array for the picker */
 @property (nonatomic, strong) NSArray *items;
 
+/*! @brief Label to hold the selected item */
 @property (weak, nonatomic) IBOutlet UILabel *itemLabel;
 
+/*! @brief Picker reference for the view controller */
 @property (weak, nonatomic) IBOutlet UIPickerView *picker;
 
 @end
